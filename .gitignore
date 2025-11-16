@@ -1,0 +1,65 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+lib/
+esm/
+cjs/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.iml
+
+# TypeScript
+*.tsbuildinfo
+
+# Bundlers / caches
+.cache/
+.parcel-cache/
+.next/
+.storybook/
+.eslintcache
+.cache-loader
+.rpt2_cache/
+.rts2_cache_cjs/
+
+# Logs and runtime files
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.tgz
+*.gz
+.cache/
+
+# Optional: lockfiles usually tracked; uncomment to ignore if you don't want them in repo
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
