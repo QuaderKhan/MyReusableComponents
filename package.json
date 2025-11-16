@@ -1,24 +1,22 @@
 {
-  "name": "quadersreusablecomponenets",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "index.js",
+  "name": "quaderlibrary",
+  "version": "1.0.1",
+  "description": "Reusable React components library created by Quader Khan",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/index.css",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsup src/index.ts && cp -r src/styles dist/styles",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "tsup": "^8.5.0",
-    "typescript": "^5.9.3"
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
   },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  }
+  "author": "Quader",
+  "license": "MIT"
 }
